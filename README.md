@@ -90,7 +90,7 @@ Answer: ...
 
 You can continue asking questions until you type exit or quit.
 ```
-How it works
+### How it works
 
 The system follows a standard RAG pipeline:
 
@@ -104,6 +104,6 @@ The system follows a standard RAG pipeline:
 
     Generation: The retrieved chunks are then passed to the Llama 3.3 model via the Groq API, along with your original query. The LLM synthesizes this information to generate a comprehensive and accurate answer.
 
-Contributing
+### Contributing
 
 Feel free to open issues or submit pull requests.
