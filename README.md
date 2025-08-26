@@ -10,7 +10,7 @@ A simple Retrieval-Augmented Generation (RAG) system that uses local documents a
 
     HuggingFace Embeddings: Uses the all-MiniLM-L6-v2 model for efficient text embeddings.
 
-    Groq API Integration: Connects to the Groq API to use a powerful LLM like Llama 3.3 for generating answers.
+    Grok API Integration: Connects to the Grok API to use a powerful LLM for generating answers.
 
     RetrievalQA Chain: Utilizes LangChain's RetrievalQA chain to combine document retrieval with the LLM's generative capabilities.
 
@@ -102,7 +102,7 @@ The system follows a standard RAG pipeline:
 
     Retrieval: When you ask a question, the system converts your query into a vector and searches the vector store for the top 3 most semantically similar chunks.
 
-    Generation: The retrieved chunks are then passed to the Llama 3.3 model via the Groq API, along with your original query. The LLM synthesizes this information to generate a comprehensive and accurate answer.
+    Generation: The retrieved chunks are then passed to the Groq API, along with your original query. The LLM synthesizes this information to generate a comprehensive and accurate answer.
 
 ### Contributing
 
