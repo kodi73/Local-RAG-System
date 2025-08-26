@@ -1,4 +1,4 @@
-## Local RAG System with Llama 3.3
+## Local RAG System
 
 A simple Retrieval-Augmented Generation (RAG) system that uses local documents and a large language model (LLM) to answer questions. This project leverages LangChain, ChromaDB, and HuggingFace for a powerful, local question-answering tool.
 
